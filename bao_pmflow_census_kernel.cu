@@ -27,7 +27,7 @@
 
 #include "bao_basic_cuda.h"
 #include "defs.h"  //for parameters
-#include "bicubicTexture_kernel.cuh"
+#include "3rdparty/nv-cuda-v5.0/bicubicTexture_kernel.cuh"
 
 texture<uchar4, 2, cudaReadModeNormalizedFloat> rgbaImg1Tex; //in texture memory
 texture<uchar4, 2, cudaReadModeNormalizedFloat> rgbaImg2Tex; //in texture memory

@@ -397,7 +397,7 @@ void baoCudaFillHole(short2* d_disp_vec, float* d_cost, uchar4* d_img, int w, in
 #define SUBPIX_NUM_EQU        ((2*SUBPIX_NEIG_RADIUS+1)*(2*SUBPIX_NEIG_RADIUS+1))  //5*5=25
 #define SUBPIX_POS_2_IDX(x,y) ((y+SUBPIX_NEIG_RADIUS)*(2*SUBPIX_NEIG_RADIUS+1)+x+SUBPIX_NEIG_RADIUS) 
 
-#include "bicubicTexture_kernel.cuh"
+#include "3rdparty/nv-cuda-v5.0/bicubicTexture_kernel.cuh"
 
 __device__ inline void _d_subpix_bilateral_dist(float& cost, float& weight, float4 c1, float4 c2, float4 a, float4 b, unsigned char s1, unsigned char s2, int dx, int dy)
 {
