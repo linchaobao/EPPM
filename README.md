@@ -1,7 +1,7 @@
 EPPM
 ====================================
 
-Code by Linchao Bao (linchaobao@gmail.com)
+Code by [Linchao Bao](https://sites.google.com/site/linchaobao/) (linchaobao@gmail.com)
 
 #### About
 
@@ -27,7 +27,7 @@ The code relies on NVIDIA CUDA (version > 5.0) and only works on NVIDIA GPUs. To
 
 #### Citing
 
-Please cite the following paper is you find the code useful: 
+Please cite the following paper if you find the code useful: 
 
 
 	@inproceedings{bao2014cvpreppm,
@@ -42,5 +42,5 @@ Please cite the following paper is you find the code useful:
 
 #### License & Disclaimer
 
-The code is released under an MIT license and is developed for academic purpose. Please use the code in your own risk. 
+The code is released under an [MIT license](https://en.wikipedia.org/wiki/MIT_License) and is developed for academic purpose. Please use the code in your own risk. 
 
